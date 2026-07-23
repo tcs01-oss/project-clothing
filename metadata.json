@@ -1,0 +1,6 @@
+{
+  "name": "vartman",
+  "description": "An earthy, minimalist e-commerce ecosystem for digital nomads and explorers featuring travel gear and apparel, dynamic stories, interactive merchant overview, and a server-side Gemini-powered styling assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-cormorant: "Fraunces", Georgia, serif;
+  --font-dmsans: "Public Sans", sans-serif;
+
+  /* Vartman Redesign Colors (White Theme Redesign) */
+  --color-dust: #FFFFFF;
+  --color-sand: #D9CBB0;
+  --color-terrain: #D9CBB0;
+  --color-earth: #1C2333;
+  --color-moss: #3D3F2E;
+  --color-moss-hover: #2E301F;
+  --color-ink: #1C2333;
+  --color-linen: #F5F0E8;
+  --color-rust: #B5652F;
+  --color-horizon: #4B5563;
+}
+
+body {
+  background-color: var(--color-linen);
+  color: var(--color-earth);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif-clean {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+/* slight negative letter-spacing (-0.01em) on large heading sizes (above 40px) */
+h1, 
+.text-4xl, 
+.text-5xl, 
+.text-6xl, 
+.text-7xl, 
+.text-8xl, 
+.text-\[36px\], 
+.text-\[42px\], 
+.text-\[56px\] {
+  letter-spacing: -0.01em;
+}
+
+/* Custom subtle organic linen overlay */
+.bg-linen-organic {
+  background-color: var(--color-linen);
+  background-image: none;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-rust);
+  border-radius: 2px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-moss-hover);
+}
+
+/* Ensure hover utilities map to our custom hover color */
+.hover\:bg-moss:hover {
+  background-color: var(--color-moss-hover) !important;
+}
+.hover\:text-moss:hover {
+  color: var(--color-moss-hover) !important;
+}
+
+/* Hide scrollbars for slick swipable horizontal container tracks */
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* 3D Depth shadows for panels and cards floating over fixed background */
+.depth-shadow-sm {
+  box-shadow: 0 4px 20px -2px rgba(28, 28, 26, 0.03), 0 2px 8px -1px rgba(28, 28, 26, 0.02);
+}
+
+.depth-shadow-md {
+  box-shadow: 0 12px 30px -4px rgba(28, 28, 26, 0.05), 0 4px 12px -2px rgba(28, 28, 26, 0.03);
+}
+
+.depth-shadow-lg {
+  box-shadow: 0 20px 45px -6px rgba(28, 28, 26, 0.06), 0 6px 18px -3px rgba(28, 28, 26, 0.04);
+}
+
+.depth-shadow-xl {
+  box-shadow: 0 25px 60px -10px rgba(28, 28, 26, 0.08), 0 10px 25px -5px rgba(28, 28, 26, 0.05);
+}
+
+.depth-shadow-2xl {
+  box-shadow: 0 35px 80px -15px rgba(28, 28, 26, 0.12), 0 15px 35px -5px rgba(28, 28, 26, 0.08);
+}

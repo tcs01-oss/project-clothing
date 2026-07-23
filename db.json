@@ -1,0 +1,2123 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Wanderer Admin",
+      "role": "admin",
+      "orderHistory": [
+        "ORD-7580"
+      ],
+      "shippingAddress": {
+        "zip": "80301",
+        "city": "Boulder",
+        "street": "1 Wilderness Path",
+        "state": "CO"
+      },
+      "email": "admin@vartman.com"
+    },
+    {
+      "id": "user-customer",
+      "email": "ankit@terrawander.com",
+      "shippingAddress": {
+        "state": "Central Region",
+        "city": "Singapore",
+        "zip": "119961",
+        "street": "142 Innovation Park, Block C"
+      },
+      "orderHistory": [
+        "ORD-9304"
+      ],
+      "name": "Ankit Sharma",
+      "role": "customer"
+    }
+  ],
+  "userPasswords": {
+    "user-admin": "admin@123",
+    "user-customer": "wanderer2026"
+  },
+  "products": [
+    {
+      "id": "prod-1784493321978",
+      "name": "Casual Checked Shirt & White Denim Set",
+      "description": "Includes 1x Premium Checked Casual Shirt and 1x Loose Fit White Denim Jeans.",
+      "price": 649,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784493321978-var-0_casual-checked-shirt-white-denim-set-lime-green-plaid_shirt-trouser-combo_lime-green-plaid_649_s-m-l-xl-xxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "stock": 39,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Lime Green Plaid",
+        "Forest Green Plaid",
+        "Mustard Yellow Plaid",
+        "Charcoal Brown Plaid"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Embrace effortless casual style with this perfectly curated checked shirt and white denim combo. Designed for everyday comfort and a relaxed, modern silhouette.",
+      "referenceNumber": "",
+      "fitAndStyle": "FLOWING LOOSE FIT",
+      "compositionAndCare": "Machine wash cold with like colors. Tumble dry low. Warm iron if needed.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "ID": "prod-1784493321978",
+      "Name": "Casual Checked Shirt & White Denim Set",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Lime Green Plaid",
+      "Price": 649,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex",
+      "specs": {},
+      "sellingPrice": 649,
+      "mrp": 799,
+      "title": "Casual Checked Shirt & White Denim Set",
+      "ratingAvg": 5,
+      "sizeGuideRef": "",
+      "productType": "Two-Piece Set",
+      "topSizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "bottomSizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "combos": [
+        {
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493321978-combo-0_casual-checked-shirt-white-denim-set-combo_shirt-trouser-combo_combo_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2497,
+          "sellingPrice": 1499,
+          "shirtSize": "S",
+          "trouserSize": "S"
+        }
+      ],
+      "reviewsCount": 163,
+      "variants": [
+        {
+          "name": "Lime Green Plaid",
+          "color": "Lime Green Plaid",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493321978-var-0_casual-checked-shirt-white-denim-set-lime-green-plaid_shirt-trouser-combo_lime-green-plaid_649_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 649,
+          "mrp": 799,
+          "sellingPrice": 649
+        },
+        {
+          "name": "Forest Green Plaid",
+          "color": "Forest Green Plaid",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493321978-var-1_casual-checked-shirt-white-denim-set-forest-green-plaid_shirt-trouser-combo_forest-green-plaid_649_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 649,
+          "mrp": 799,
+          "sellingPrice": 649
+        },
+        {
+          "name": "Mustard Yellow Plaid",
+          "color": "Mustard Yellow Plaid",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493321978-var-2_casual-checked-shirt-white-denim-set-mustard-yellow-plaid_shirt-trouser-combo_mustard-yellow-plaid_649_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 649,
+          "mrp": 799,
+          "sellingPrice": 649
+        },
+        {
+          "name": "Charcoal Brown Plaid",
+          "color": "Charcoal Brown Plaid",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493321978-var-3_casual-checked-shirt-white-denim-set-charcoal-brown-plaid_shirt-trouser-combo_charcoal-brown-plaid_649_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 649,
+          "mrp": 799,
+          "sellingPrice": 649
+        }
+      ]
+    },
+    {
+      "id": "prod-1784493914740",
+      "name": "Contrast Stitch Shirt & Wide-Leg Denim Set",
+      "description": "Includes 1x Contrast Stitch Utility Shirt and 1x Wide-Leg Light Wash Denim Jeans",
+      "price": 4800,
+      "category": "SHIRT & TROUSER COMBO",
+      "rating": 5,
+      "stock": 38,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Rust Brown",
+        "Midnight Black",
+        "Dusty Pink",
+        "Classic White"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "A perfect blend of retro utility and modern streetwear aesthetics. This set pairs a relaxed contrast-stitch shirt with effortlessly cool wide-leg denim for an instant, curated look.",
+      "referenceNumber": "",
+      "fitAndStyle": "FLOWING LOOSE FIT",
+      "compositionAndCare": "Machine wash cold inside out with like colors. Tumble dry low or line dry in shade. Warm iron if needed.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "ID": "prod-1784493914740",
+      "Name": "Contrast Stitch Shirt & Wide-Leg Denim Set",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Rust Brown",
+      "Price": 4800,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex",
+      "specs": {},
+      "sellingPrice": 4800,
+      "combos": [],
+      "mrp": 5490,
+      "title": "Contrast Stitch Shirt & Wide-Leg Denim Set",
+      "ratingAvg": 5,
+      "sizeGuideRef": "",
+      "topSizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "bottomSizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "reviewsCount": 163,
+      "productType": "Single Item",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784493914740-var-0_contrast-stitch-shirt-wide-leg-denim-set-rust-brown_shirt-trouser-combo_rust-brown_4800_s-m-l-xl-xxl_unisex.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Rust Brown",
+          "color": "Rust Brown",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493914740-var-0_contrast-stitch-shirt-wide-leg-denim-set-rust-brown_shirt-trouser-combo_rust-brown_4800_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 4800,
+          "mrp": 5490,
+          "sellingPrice": 4800
+        },
+        {
+          "name": "Midnight Black",
+          "color": "Midnight Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493914740-var-1_contrast-stitch-shirt-wide-leg-denim-set-midnight-black_shirt-trouser-combo_midnight-black_4800_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 4800,
+          "mrp": 5490,
+          "sellingPrice": 4800
+        },
+        {
+          "name": "Dusty Pink",
+          "color": "Dusty Pink",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493914740-var-2_contrast-stitch-shirt-wide-leg-denim-set-dusty-pink_shirt-trouser-combo_dusty-pink_4800_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 4800,
+          "mrp": 5490,
+          "sellingPrice": 4800
+        },
+        {
+          "name": "Classic White",
+          "color": "Classic White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784493914740-var-3_contrast-stitch-shirt-wide-leg-denim-set-classic-white_shirt-trouser-combo_classic-white_4800_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 4800,
+          "mrp": 5490,
+          "sellingPrice": 4800
+        }
+      ]
+    },
+    {
+      "id": "prod-1784495231345",
+      "name": "Urban Graphic Camp Shirt & Trouser Set",
+      "description": "Includes 1x Graphic Print Short-Sleeve Shirt. Includes 1x Off-White Relaxed Fit Trouser.",
+      "price": 1499,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784495231345-var-0_urban-graphic-camp-shirt-trouser-set-burgundy-red_shirt-trouser-combo_burgundy-red_1499_s-m-l-xl-xxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 60,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Burgundy Red",
+        "Slate Grey",
+        "Mist Grey",
+        "Charcoal Black",
+        "Mustard Yellow",
+        "Cobalt Blue"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Designed for the modern trendsetter, this co-ord set merges effortless streetwear aesthetics with ultimate daily comfort. Featuring bold back graphics and a relaxed silhouette, it's the perfect ensemble for casual outings and urban adventures.",
+      "referenceNumber": "",
+      "fitAndStyle": "FLOWING LOOSE FIT",
+      "compositionAndCare": "Machine wash cold with like colors. Tumble dry low. Warm iron if needed. Do not bleach.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Burgundy Red",
+          "color": "Burgundy Red",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784495231345-var-0_urban-graphic-camp-shirt-trouser-set-burgundy-red_shirt-trouser-combo_burgundy-red_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 1999,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Slate Grey",
+          "color": "Slate Grey",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784495231345-var-1_urban-graphic-camp-shirt-trouser-set-slate-grey_shirt-trouser-combo_slate-grey_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 1999,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Mist Grey",
+          "color": "Mist Grey",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784495231345-var-2_urban-graphic-camp-shirt-trouser-set-mist-grey_shirt-trouser-combo_mist-grey_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 1999,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Charcoal Black",
+          "color": "Charcoal Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784495231345-var-3_urban-graphic-camp-shirt-trouser-set-charcoal-black_shirt-trouser-combo_charcoal-black_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 1999,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Mustard Yellow",
+          "color": "Mustard Yellow",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784495231345-var-4_urban-graphic-camp-shirt-trouser-set-mustard-yellow_shirt-trouser-combo_mustard-yellow_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 1999,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Cobalt Blue",
+          "color": "Cobalt Blue",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784495231345-var-5_urban-graphic-camp-shirt-trouser-set-cobalt-blue_shirt-trouser-combo_cobalt-blue_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 1999,
+          "sellingPrice": 1499
+        }
+      ],
+      "combos": [],
+      "productType": "Single Item",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "100% Premium Cotton",
+          "FIT": "Relaxed Fit",
+          "DETAILS": "Short sleeves, camp collar, button-down front, bold graphic print on the back."
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "100% Cotton Twill",
+          "FIT": "Relaxed Straight Fit",
+          "DETAILS": "Off-white color, elasticated waistband with drawstring, side pockets, clean hem."
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Urban Graphic Camp Shirt & Trouser Set",
+      "mrp": 1999,
+      "sellingPrice": 1499,
+      "ID": "prod-1784495231345",
+      "Name": "Urban Graphic Camp Shirt & Trouser Set",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Burgundy Red",
+      "Price": 1499,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex",
+      "topSizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "bottomSizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": "prod-1784536804295",
+      "name": "Summer Linen Shirt & Drawstring Pant Co-ord Set",
+      "description": "Includes 1x Textured Cotton-Linen Button-Down Shirt and 1x Off-White Drawstring Trouser.",
+      "price": 650,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784536804295-var-0_summer-linen-shirt-drawstring-pant-co-ord-set-earth-brown_shirt-trouser-combo_earth-brown_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 50,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "colors": [
+        "Earth Brown",
+        "Sky Blue",
+        "Crimson Red",
+        "Mustard Yellow",
+        "Mint Green"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Embrace effortless summer elegance with this premium cotton-linen co-ord set, designed for ultimate comfort and breathability. Perfect for resort getaways, casual outings, or relaxed weekends under the sun.",
+      "referenceNumber": "",
+      "fitAndStyle": "FLOWING LOOSE FIT",
+      "compositionAndCare": "Machine wash cold on a gentle cycle with like colors. Hang dry in shade and warm iron if needed to maintain the natural linen texture.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Earth Brown",
+          "color": "Earth Brown",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784536804295-var-0_summer-linen-shirt-drawstring-pant-co-ord-set-earth-brown_shirt-trouser-combo_earth-brown_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Sky Blue",
+          "color": "Sky Blue",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784536804295-var-1_summer-linen-shirt-drawstring-pant-co-ord-set-sky-blue_shirt-trouser-combo_sky-blue_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Crimson Red",
+          "color": "Crimson Red",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784536804295-var-2_summer-linen-shirt-drawstring-pant-co-ord-set-crimson-red_shirt-trouser-combo_crimson-red_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Mustard Yellow",
+          "color": "Mustard Yellow",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784536804295-var-3_summer-linen-shirt-drawstring-pant-co-ord-set-mustard-yellow_shirt-trouser-combo_mustard-yellow_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Mint Green",
+          "color": "Mint Green",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784536804295-var-4_summer-linen-shirt-drawstring-pant-co-ord-set-mint-green_shirt-trouser-combo_mint-green_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        }
+      ],
+      "combos": [
+        {
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784536804295-combo-0_summer-linen-shirt-drawstring-pant-co-ord-set-combo_shirt-trouser-combo_combo_7990_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 7990,
+          "mrp": 9978,
+          "sellingPrice": 7990,
+          "shirtSize": "S",
+          "trouserSize": "S"
+        }
+      ],
+      "productType": "Two-Piece Set",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "Cotton Linen Blend",
+          "FIT": "Relaxed Fit",
+          "DETAILS": "Button-down collar, front button placket, long sleeves, breathable textured weave."
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "Cotton Linen Blend",
+          "FIT": "Relaxed Fit",
+          "DETAILS": "Elasticated waistband with adjustable drawstring, side pockets, lightweight breathable fabric."
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Summer Linen Shirt & Drawstring Pant Co-ord Set",
+      "mrp": 650,
+      "sellingPrice": 650,
+      "ID": "prod-1784536804295",
+      "Name": "Summer Linen Shirt & Drawstring Pant Co-ord Set",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Earth Brown",
+      "Price": 650,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex"
+    },
+    {
+      "id": "prod-1784548567339",
+      "name": "Retro Graphic Shirt & Black Denim Combo",
+      "description": "Includes 1x Graphic Short-Sleeve Shirt. Includes 1x Relaxed Black Denim Pants.",
+      "price": 650,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784548567339-var-0_retro-graphic-shirt-black-denim-combo-ride-to-the-future-white_shirt-trouser-combo_ride-to-the-future-white_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 30,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "colors": [
+        "Ride to the Future White",
+        "Porsche Front Graphic White",
+        "Porsche Back Graphic White"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "A perfect fusion of retro automotive passion and contemporary street style. This curated combo delivers an effortless, high-contrast look designed for the modern trendsetter.",
+      "referenceNumber": "",
+      "fitAndStyle": "FLOWING LOOSE FIT",
+      "compositionAndCare": "Machine wash cold inside out. Do not iron directly on the graphic prints. Tumble dry low.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Ride to the Future White",
+          "color": "Ride to the Future White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784548567339-var-0_retro-graphic-shirt-black-denim-combo-ride-to-the-future-white_shirt-trouser-combo_ride-to-the-future-white_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Porsche Front Graphic White",
+          "color": "Porsche Front Graphic White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784548567339-var-1_retro-graphic-shirt-black-denim-combo-porsche-front-graphic-white_shirt-trouser-combo_porsche-front-graphic-white_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Porsche Back Graphic White",
+          "color": "Porsche Back Graphic White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784548567339-var-2_retro-graphic-shirt-black-denim-combo-porsche-back-graphic-white_shirt-trouser-combo_porsche-back-graphic-white_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        }
+      ],
+      "combos": [],
+      "productType": "Single Item",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "Cotton Blend",
+          "FIT": "Relaxed Fit",
+          "DETAILS": "Short sleeves, button-down front, classic collar, graphic print on front/back"
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "100% Cotton Denim",
+          "FIT": "Straight Fit",
+          "DETAILS": "5-pocket styling, button closure with zip fly, belt loops"
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Retro Graphic Shirt & Black Denim Combo",
+      "mrp": 650,
+      "sellingPrice": 650,
+      "ID": "prod-1784548567339",
+      "Name": "Retro Graphic Shirt & Black Denim Combo",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Ride to the Future White",
+      "Price": 650,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex"
+    },
+    {
+      "id": "prod-1784548686440",
+      "name": "Urban Graphic Resort Shirt & Denim Combo",
+      "description": "Includes 1x Graphic Short-Sleeve Shirt. Includes 1x Classic Denim Jeans.",
+      "price": 650,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784548686440-var-0_urban-graphic-resort-shirt-denim-combo-sage-green-black_shirt-trouser-combo_sage-green-black_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 40,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "colors": [
+        "Sage Green & Black",
+        "Beige & Light Blue",
+        "Light Grey & Light Blue",
+        "Cream & Black"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Embrace effortless street style with this curated graphic shirt and denim combo. Perfect for casual outings, concerts, or weekend hangouts, this set blends artistic expression with everyday comfort.",
+      "referenceNumber": "",
+      "fitAndStyle": "FLOWING LOOSE FIT",
+      "compositionAndCare": "Machine wash cold inside out with like colors. Tumble dry low. Iron on reverse side of the print if needed.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Sage Green & Black",
+          "color": "Sage Green & Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784548686440-var-0_urban-graphic-resort-shirt-denim-combo-sage-green-black_shirt-trouser-combo_sage-green-black_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Beige & Light Blue",
+          "color": "Beige & Light Blue",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784548686440-var-1_urban-graphic-resort-shirt-denim-combo-beige-light-blue_shirt-trouser-combo_beige-light-blue_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Light Grey & Light Blue",
+          "color": "Light Grey & Light Blue",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784548686440-var-2_urban-graphic-resort-shirt-denim-combo-light-grey-light-blue_shirt-trouser-combo_light-grey-light-blue_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Cream & Black",
+          "color": "Cream & Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784548686440-var-3_urban-graphic-resort-shirt-denim-combo-cream-black_shirt-trouser-combo_cream-black_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 650,
+          "sellingPrice": 650
+        }
+      ],
+      "combos": [],
+      "productType": "Single Item",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "Cotton Blend",
+          "FIT": "Relaxed Fit",
+          "DETAILS": "Short sleeves, camp collar, button-down front, graphic back print featuring artist-inspired artwork."
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "100% Cotton Denim",
+          "FIT": "Straight Fit",
+          "DETAILS": "Classic 5-pocket design, button and zip fly closure, belt loops."
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Urban Graphic Resort Shirt & Denim Combo",
+      "mrp": 650,
+      "sellingPrice": 650,
+      "ID": "prod-1784548686440",
+      "Name": "Urban Graphic Resort Shirt & Denim Combo",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Sage Green & Black",
+      "Price": 650,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex"
+    },
+    {
+      "id": "prod-1784550367432",
+      "name": "Urban Flannel & Drawstring Trouser Combo Set",
+      "description": "Includes 1x Premium Plaid Flannel Shirt and 1x Comfortable Drawstring Trouser",
+      "price": 650,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-0_urban-flannel-drawstring-trouser-combo-set-burgundy-plaid-grey_shirt-trouser-combo_burgundy-plaid-grey_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 70,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "colors": [
+        "Burgundy Plaid & Grey",
+        "Monochrome Plaid & Tan",
+        "Beige Plaid & Black",
+        "Forest Green Plaid & Black",
+        "Navy Green Plaid & Beige",
+        "Blue White Plaid & Charcoal",
+        "Slate Grey Plaid & Black"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Crafted for the modern wardrobe, this curated combo pairs a timeless plaid flannel shirt with versatile drawstring trousers. It offers an effortless transition from relaxed daytime lounging to casual evening outings.",
+      "referenceNumber": "",
+      "fitAndStyle": "REGULAR FIT",
+      "compositionAndCare": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Warm iron if needed.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Burgundy Plaid & Grey",
+          "color": "Burgundy Plaid & Grey",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-0_urban-flannel-drawstring-trouser-combo-set-burgundy-plaid-grey_shirt-trouser-combo_burgundy-plaid-grey_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 1299,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Monochrome Plaid & Tan",
+          "color": "Monochrome Plaid & Tan",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-1_urban-flannel-drawstring-trouser-combo-set-monochrome-plaid-tan_shirt-trouser-combo_monochrome-plaid-tan_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 1299,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Beige Plaid & Black",
+          "color": "Beige Plaid & Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-2_urban-flannel-drawstring-trouser-combo-set-beige-plaid-black_shirt-trouser-combo_beige-plaid-black_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 1299,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Forest Green Plaid & Black",
+          "color": "Forest Green Plaid & Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-3_urban-flannel-drawstring-trouser-combo-set-forest-green-plaid-black_shirt-trouser-combo_forest-green-plaid-black_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 1299,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Navy Green Plaid & Beige",
+          "color": "Navy Green Plaid & Beige",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-4_urban-flannel-drawstring-trouser-combo-set-navy-green-plaid-beige_shirt-trouser-combo_navy-green-plaid-beige_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 1299,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Blue White Plaid & Charcoal",
+          "color": "Blue White Plaid & Charcoal",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-5_urban-flannel-drawstring-trouser-combo-set-blue-white-plaid-charcoal_shirt-trouser-combo_blue-white-plaid-charcoal_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 1299,
+          "sellingPrice": 650
+        },
+        {
+          "name": "Slate Grey Plaid & Black",
+          "color": "Slate Grey Plaid & Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550367432-var-6_urban-flannel-drawstring-trouser-combo-set-slate-grey-plaid-black_shirt-trouser-combo_slate-grey-plaid-black_650_s-m-l-xl-xxl-xxxl_unisex.jpg"
+          ],
+          "price": 650,
+          "mrp": 1299,
+          "sellingPrice": 650
+        }
+      ],
+      "combos": [],
+      "productType": "Single Item",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "Cotton Flannel Blend",
+          "FIT": "Regular Fit",
+          "DETAILS": "Classic collar, button-down front, long sleeves with button cuffs, premium plaid pattern"
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "Cotton Twill Blend",
+          "FIT": "Relaxed Fit",
+          "DETAILS": "Elasticated waistband with adjustable drawstring, side pockets, clean hem"
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Urban Flannel & Drawstring Trouser Combo Set",
+      "mrp": 1299,
+      "sellingPrice": 650,
+      "ID": "prod-1784550367432",
+      "Name": "Urban Flannel & Drawstring Trouser Combo Set",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Burgundy Plaid & Grey",
+      "Price": 650,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex"
+    },
+    {
+      "id": "prod-1784550502043",
+      "name": "Linen Blend Shirt & Drawstring Pant Co-ord Set",
+      "description": "Includes 1x Textured Button-Down Shirt and 1x Elasticated Drawstring Trouser",
+      "price": 1499,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-0_linen-blend-shirt-drawstring-pant-co-ord-set-lavender-white_shirt-trouser-combo_lavender-white_1499_s-m-l-xl-xxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 70,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Lavender & White",
+        "Cream & Dark Brown",
+        "Burgundy & White",
+        "Navy Blue & White",
+        "Classic Black & Beige",
+        "Optic White & Dark Brown",
+        "Rust Orange & Beige"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Embrace effortless sophistication with this premium linen-blend co-ord set, designed for breezy summer days and relaxed evenings. The textured button-down shirt pairs seamlessly with comfortable drawstring trousers for a refined yet laid-back aesthetic.",
+      "referenceNumber": "",
+      "fitAndStyle": "REGULAR FIT",
+      "compositionAndCare": "Machine wash cold on a gentle cycle with like colors. Hang dry in shade and warm iron if needed to maintain the natural linen texture.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Lavender & White",
+          "color": "Lavender & White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-0_linen-blend-shirt-drawstring-pant-co-ord-set-lavender-white_shirt-trouser-combo_lavender-white_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Cream & Dark Brown",
+          "color": "Cream & Dark Brown",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-1_linen-blend-shirt-drawstring-pant-co-ord-set-cream-dark-brown_shirt-trouser-combo_cream-dark-brown_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Burgundy & White",
+          "color": "Burgundy & White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-2_linen-blend-shirt-drawstring-pant-co-ord-set-burgundy-white_shirt-trouser-combo_burgundy-white_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Navy Blue & White",
+          "color": "Navy Blue & White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-3_linen-blend-shirt-drawstring-pant-co-ord-set-navy-blue-white_shirt-trouser-combo_navy-blue-white_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Classic Black & Beige",
+          "color": "Classic Black & Beige",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-4_linen-blend-shirt-drawstring-pant-co-ord-set-classic-black-beige_shirt-trouser-combo_classic-black-beige_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Optic White & Dark Brown",
+          "color": "Optic White & Dark Brown",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-5_linen-blend-shirt-drawstring-pant-co-ord-set-optic-white-dark-brown_shirt-trouser-combo_optic-white-dark-brown_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Rust Orange & Beige",
+          "color": "Rust Orange & Beige",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784550502043-var-6_linen-blend-shirt-drawstring-pant-co-ord-set-rust-orange-beige_shirt-trouser-combo_rust-orange-beige_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        }
+      ],
+      "combos": [],
+      "productType": "Single Item",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "Linen Cotton Blend",
+          "FIT": "Regular Fit",
+          "DETAILS": "Button-down collar, embroidered logo on chest, textured weave, long sleeves with button cuffs."
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "Linen Cotton Blend",
+          "FIT": "Relaxed Fit",
+          "DETAILS": "Elasticated waistband with adjustable drawstring, side pockets, lightweight breathable fabric."
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Linen Blend Shirt & Drawstring Pant Co-ord Set",
+      "mrp": 2499,
+      "sellingPrice": 1499,
+      "ID": "prod-1784550502043",
+      "Name": "Linen Blend Shirt & Drawstring Pant Co-ord Set",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Lavender & White",
+      "Price": 1499,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex"
+    },
+    {
+      "id": "prod-1784551162199",
+      "name": "Summer Resort Linen Co-ord Set",
+      "description": "Includes 1x Premium Linen-Blend Button-Down Shirt. Includes 1x Lightweight Drawstring Trouser.",
+      "price": 1499,
+      "category": "SHIRT & TROUSER COMBO",
+      "images": [
+        "/assets/catalog/shirt-trouser-combo/prod-1784551162199-var-0_summer-resort-linen-co-ord-set-olive-drab-off-white_shirt-trouser-combo_olive-drab-off-white_1499_s-m-l-xl-xxl_unisex.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 40,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Olive Drab & Off-White",
+        "Dusty Mauve & Off-White",
+        "Sage Green & Oatmeal",
+        "Deep Burgundy & Off-White"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Designed for effortless warm-weather elegance, this linen-blend set combines a breathable button-down shirt with relaxed drawstring trousers. Perfect for coastal getaways or casual weekend brunches.",
+      "referenceNumber": "",
+      "fitAndStyle": "REGULAR FIT",
+      "compositionAndCare": "Machine wash cold on a gentle cycle with like colors. Hang dry in shade and warm iron if needed.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Olive Drab & Off-White",
+          "color": "Olive Drab & Off-White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784551162199-var-0_summer-resort-linen-co-ord-set-olive-drab-off-white_shirt-trouser-combo_olive-drab-off-white_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Dusty Mauve & Off-White",
+          "color": "Dusty Mauve & Off-White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784551162199-var-1_summer-resort-linen-co-ord-set-dusty-mauve-off-white_shirt-trouser-combo_dusty-mauve-off-white_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Sage Green & Oatmeal",
+          "color": "Sage Green & Oatmeal",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784551162199-var-2_summer-resort-linen-co-ord-set-sage-green-oatmeal_shirt-trouser-combo_sage-green-oatmeal_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        },
+        {
+          "name": "Deep Burgundy & Off-White",
+          "color": "Deep Burgundy & Off-White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/shirt-trouser-combo/prod-1784551162199-var-3_summer-resort-linen-co-ord-set-deep-burgundy-off-white_shirt-trouser-combo_deep-burgundy-off-white_1499_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 1499,
+          "mrp": 2499,
+          "sellingPrice": 1499
+        }
+      ],
+      "combos": [],
+      "productType": "Single Item",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "80% Cotton, 20% Linen",
+          "FIT": "Regular Fit",
+          "DETAILS": "Button-down collar, full button placket, breathable textured weave"
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "80% Cotton, 20% Linen",
+          "FIT": "Relaxed Straight Fit",
+          "DETAILS": "Elasticated waistband with contrast drawstring, side pockets"
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Summer Resort Linen Co-ord Set",
+      "mrp": 2499,
+      "sellingPrice": 1499,
+      "ID": "prod-1784551162199",
+      "Name": "Summer Resort Linen Co-ord Set",
+      "Category": "SHIRT & TROUSER COMBO",
+      "Colour": "Olive Drab & Off-White",
+      "Price": 1499,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex"
+    },
+    {
+      "id": "prod-1784626825198",
+      "name": "Retro Sportswear Windbreaker Jacket",
+      "description": "Includes 1x Retro Windbreaker Jacket. Features a cropped relaxed fit with contrast paneling and bold back branding.",
+      "price": 89.99,
+      "category": "Loomed Shirts",
+      "images": [
+        "/assets/catalog/loomed-shirts/prod-1784626825198-var-0_retro-sportswear-windbreaker-jacket-crimson-red_loomed-shirts_crimson-red_89.99_s-m-l-xl-xxl_unisex.jpg",
+        "/assets/catalog/loomed-shirts/prod-1784626825198-var-0_retro-sportswear-windbreaker-jacket-crimson-red_loomed-shirts_crimson-red_89.99_s-m-l-xl-xxl_unisex_gallery_1.jpg",
+        "/assets/catalog/loomed-shirts/prod-1784626825198-var-0_retro-sportswear-windbreaker-jacket-crimson-red_loomed-shirts_crimson-red_89.99_s-m-l-xl-xxl_unisex_gallery_2.jpg"
+      ],
+      "rating": 5,
+      "ratingAvg": 5,
+      "reviewsCount": 163,
+      "stock": 40,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Crimson Red",
+        "Classic White",
+        "Stone Grey",
+        "Midnight Black"
+      ],
+      "tags": [
+        "organic",
+        "loomed"
+      ],
+      "featured": false,
+      "inspiration": "Embrace vintage athletic aesthetics with this retro-inspired cropped windbreaker. Designed for effortless street style, it combines lightweight weather protection with bold heritage branding.",
+      "referenceNumber": "",
+      "fitAndStyle": "FLOWING LOOSE FIT",
+      "compositionAndCare": "Machine wash cold with like colors. Tumble dry low. Do not iron print or embroidery.",
+      "originAndTraceability": "",
+      "completeYourLook": [],
+      "variants": [
+        {
+          "name": "Crimson Red",
+          "color": "Crimson Red",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/loomed-shirts/prod-1784626825198-var-0_retro-sportswear-windbreaker-jacket-crimson-red_loomed-shirts_crimson-red_89.99_s-m-l-xl-xxl_unisex.jpg",
+            "/assets/catalog/loomed-shirts/prod-1784626825198-var-0_retro-sportswear-windbreaker-jacket-crimson-red_loomed-shirts_crimson-red_89.99_s-m-l-xl-xxl_unisex_gallery_1.jpg",
+            "/assets/catalog/loomed-shirts/prod-1784626825198-var-0_retro-sportswear-windbreaker-jacket-crimson-red_loomed-shirts_crimson-red_89.99_s-m-l-xl-xxl_unisex_gallery_2.jpg"
+          ],
+          "price": 89.99,
+          "mrp": 120,
+          "sellingPrice": 89.99
+        },
+        {
+          "name": "Classic White",
+          "color": "Classic White",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/loomed-shirts/prod-1784626825198-var-1_retro-sportswear-windbreaker-jacket-classic-white_loomed-shirts_classic-white_89.99_s-m-l-xl-xxl_unisex.jpg",
+            "/assets/catalog/loomed-shirts/prod-1784626825198-var-1_retro-sportswear-windbreaker-jacket-classic-white_loomed-shirts_classic-white_89.99_s-m-l-xl-xxl_unisex_gallery_1.jpg"
+          ],
+          "price": 89.99,
+          "mrp": 120,
+          "sellingPrice": 89.99
+        },
+        {
+          "name": "Stone Grey",
+          "color": "Stone Grey",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/loomed-shirts/prod-1784626825198-var-2_retro-sportswear-windbreaker-jacket-stone-grey_loomed-shirts_stone-grey_89.99_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 89.99,
+          "mrp": 120,
+          "sellingPrice": 89.99
+        },
+        {
+          "name": "Midnight Black",
+          "color": "Midnight Black",
+          "stock": 10,
+          "images": [
+            "/assets/catalog/loomed-shirts/prod-1784626825198-var-3_retro-sportswear-windbreaker-jacket-midnight-black_loomed-shirts_midnight-black_89.99_s-m-l-xl-xxl_unisex.jpg"
+          ],
+          "price": 89.99,
+          "mrp": 120,
+          "sellingPrice": 89.99
+        }
+      ],
+      "combos": [],
+      "productType": "Single Item",
+      "specs": {
+        "SHIRT_DETAILS": {
+          "TEXTILE COMPOSITION": "100% Nylon Outer, Polyester Mesh Lining",
+          "FIT": "Relaxed Cropped Fit",
+          "DETAILS": "Mock neck collar, full-zip front closure, elasticated cuffs and hem, contrast sleeve piping, embroidered chest logo, and bold printed back graphic."
+        },
+        "TROUSER_DETAILS": {
+          "TEXTILE COMPOSITION": "N/A",
+          "FIT": "N/A",
+          "DETAILS": "N/A"
+        }
+      },
+      "sizeGuideRef": "",
+      "title": "Retro Sportswear Windbreaker Jacket",
+      "mrp": 120,
+      "sellingPrice": 89.99,
+      "ID": "prod-1784626825198",
+      "Name": "Retro Sportswear Windbreaker Jacket",
+      "Category": "Loomed Shirts",
+      "Colour": "Crimson Red",
+      "Price": 89.99,
+      "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Gender Preference": "Unisex",
+      "genderPreference": "Unisex"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1024",
+      "userId": "guest",
+      "date": "2026-07-20T14:21:56.324Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-2465",
+      "userId": "guest",
+      "date": "2026-07-20T14:10:20.471Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-3211",
+      "items": [
+        {
+          "size": "XL",
+          "name": "\"Zen Nomad\" Breathable Linen Shirt",
+          "productId": "prod-5",
+          "color": "Off-White",
+          "quantity": 1,
+          "price": 64
+        }
+      ],
+      "customerName": "Lucas Grey",
+      "shippingAddress": {
+        "state": "BC",
+        "street": "21 Glacier Ridge",
+        "city": "Vancouver",
+        "zip": "V6B 3H6"
+      },
+      "paymentStatus": "Pending",
+      "status": "Processing",
+      "subtotal": 64,
+      "date": "2026-05-22T04:30:00Z",
+      "paymentMethod": "Google Pay",
+      "total": 57.6,
+      "discount": 6.4,
+      "customerEmail": "lucas.grey@explore.net"
+    },
+    {
+      "id": "ORD-4073",
+      "userId": "guest",
+      "date": "2026-07-20T13:50:42.549Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 10,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 6490,
+      "discount": 0,
+      "total": 7213,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-4271",
+      "userId": "guest",
+      "date": "2026-07-21T12:17:00.758Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": "",
+      "paymentOption": "cod",
+      "advancePaid": 200,
+      "remainingAmount": 1172
+    },
+    {
+      "id": "ORD-4753",
+      "userId": "guest",
+      "date": "2026-07-20T13:55:21.601Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-5028",
+      "userId": "guest",
+      "date": "2026-07-20T14:31:47.352Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-5128",
+      "userId": "guest",
+      "date": "2026-07-20T14:09:41.118Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-5665",
+      "userId": "guest",
+      "date": "2026-07-20T14:03:21.159Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-6495",
+      "userId": "guest",
+      "date": "2026-07-20T14:28:32.819Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-7039",
+      "userId": "guest",
+      "date": "2026-07-20T13:55:37.865Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-7351",
+      "userId": "guest",
+      "date": "2026-07-20T18:55:44.883Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493321978",
+          "name": "Casual Checked Shirt & White Denim Set (Lime Green Plaid - undefined)",
+          "price": 649,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Lime Green Plaid"
+        }
+      ],
+      "subtotal": 649,
+      "discount": 0,
+      "total": 1372,
+      "paymentStatus": "Paid",
+      "status": "Processing",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": "TRK-WND-32030"
+    },
+    {
+      "id": "ORD-7580",
+      "userId": "user-admin",
+      "date": "2026-07-20T14:04:38.352Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493914740",
+          "name": "Contrast Stitch Shirt & Wide-Leg Denim Set (Rust Brown - undefined)",
+          "price": 4800,
+          "quantity": 2,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Rust Brown"
+        }
+      ],
+      "subtotal": 9600,
+      "discount": 0,
+      "total": 9600,
+      "paymentStatus": "Paid",
+      "status": "Processing",
+      "paymentMethod": "Credit Card",
+      "trackingNumber": "TRK-WND-19277"
+    },
+    {
+      "id": "ORD-8419",
+      "paymentMethod": "Apple Pay",
+      "date": "2026-05-21T09:12:00Z",
+      "subtotal": 90,
+      "customerEmail": "sarahc@cyberdyne.io",
+      "total": 90,
+      "trackingNumber": "TRK-WND-44712",
+      "status": "Shipped",
+      "paymentStatus": "Paid",
+      "discount": 0,
+      "shippingAddress": {
+        "street": "742 Evergreen Terrace",
+        "zip": "94103",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      "customerName": "Sarah Connor",
+      "items": [
+        {
+          "size": "M",
+          "name": "\"Dune Wanderer\" Heavyweight Tee",
+          "productId": "prod-2",
+          "color": "Sandy Beige",
+          "quantity": 2,
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": "ORD-8623",
+      "userId": "guest",
+      "date": "2026-07-20T14:04:49.638Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493914740",
+          "name": "Contrast Stitch Shirt & Wide-Leg Denim Set (Rust Brown - undefined)",
+          "price": 4800,
+          "quantity": 2,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Rust Brown"
+        }
+      ],
+      "subtotal": 9600,
+      "discount": 0,
+      "total": 9600,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-9120",
+      "userId": "guest",
+      "date": "2026-07-20T13:33:39.803Z",
+      "customerName": "Wanderer Admin",
+      "customerEmail": "admin@vartman.com",
+      "shippingAddress": {
+        "street": "1 Wilderness Path",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80301"
+      },
+      "items": [
+        {
+          "productId": "prod-1784493914740",
+          "name": "Contrast Stitch Shirt & Wide-Leg Denim Set (Rust Brown - undefined)",
+          "price": 4800,
+          "quantity": 1,
+          "size": "Shirt: M / Trouser: M",
+          "color": "Rust Brown"
+        }
+      ],
+      "subtotal": 4800,
+      "discount": 0,
+      "total": 5523,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "paymentMethod": "UPI QR Code",
+      "trackingNumber": ""
+    },
+    {
+      "id": "ORD-9304",
+      "discount": 12,
+      "items": [
+        {
+          "size": "M",
+          "name": "\"Forest Sentinel\" Woodcutter Tee",
+          "productId": "prod-1",
+          "color": "Forest Green",
+          "quantity": 1,
+          "price": 42
+        },
+        {
+          "size": "L",
+          "name": "\"Lost Ocean\" Sea-washed Sweater",
+          "productId": "prod-3",
+          "color": "Ocean Blue",
+          "quantity": 1,
+          "price": 78
+        }
+      ],
+      "shippingAddress": {
+        "street": "142 Innovation Park, Block C",
+        "city": "Singapore",
+        "zip": "119961",
+        "state": "Central Region"
+      },
+      "customerName": "Ankit Sharma",
+      "trackingNumber": "TRK-WND-99238",
+      "total": 108,
+      "customerEmail": "admin@vartman.com",
+      "subtotal": 120,
+      "date": "2026-05-20T14:24:00Z",
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "status": "Delivered",
+      "userId": "user-customer"
+    }
+  ],
+  "cmsConfig": {
+    "announcementText": "Engineered for the Modern Nomad | Free Worldwide Shipping on orders over $150",
+    "heroImageUrl": "https://drive.google.com/file/d/1k7ZHZ3F6h9xbzKMuoWjrBpGMkgPB6DGk/view?usp=drive_link",
+    "heroImageUrlMobile": "https://drive.google.com/file/d/1k7ZHZ3F6h9xbzKMuoWjrBpGMkgPB6DGk/view?usp=drive_link",
+    "heroTitle": "unstructured elegance for slow journeys.",
+    "heroSubtitle": "A study in organic textiles, botanical dyes, and zero synthetic waste.",
+    "heroCtaText": "Seek the Collection",
+    "featuredProductIds": [
+      "prod-1",
+      "prod-2",
+      "prod-3"
+    ],
+    "categoriesTitle": "Shop By Category",
+    "categories": [
+      {
+        "id": "oversized-fits",
+        "title": "Oversized Fits",
+        "description": "Relaxed silhouettes, dropped shoulders, and ultimate comfort in organic heavy-knit cotton.",
+        "image": "/assets/categories/cat-1784626611281-image__1_.jpg",
+        "searchKeyword": "oversized"
+      },
+      {
+        "id": "graphic-prints",
+        "title": "Graphic Prints",
+        "description": "Artistic expressions, minimalist typography, and organic botanical-pigment prints.",
+        "image": "/assets/categories/cat-1784626639471-image__4_.jpg",
+        "searchKeyword": "graphic"
+      },
+      {
+        "id": "classic-basics",
+        "title": "Classic Basics",
+        "description": "The daily luxury. Clean-cut, premium crewnecks crafted from single-origin organic cotton.",
+        "image": "/assets/categories/cat-1784626651934-Imported_Combo_____________650_______________________________T_shirt_____________________________1_.heic",
+        "searchKeyword": "basic"
+      },
+      {
+        "id": "heavyweight-tees",
+        "title": "Heavyweight Tees",
+        "description": "Substantial premium fabric with a structured, durable drape designed to last lifetimes.",
+        "image": "/assets/categories/cat-1784626665620-Imported_Combo_____________650_______________________________T_shirt_____________________________1_.webp",
+        "searchKeyword": "heavyweight"
+      }
+    ]
+  },
+  "paymentConfig": {
+    "merchantId": "MERCHANTWNDR12",
+    "secretKey": "wndr_secret_abc123",
+    "saltKey": "wndr_salt_xyz987",
+    "upiVpa": "digitalankit021@okaxis",
+    "intentEnabled": true,
+    "qrEnabled": true
+  },
+  "transactions": [
+    {
+      "id": "TXN-152369",
+      "orderId": "ORD-1024",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T14:21:56.343Z"
+    },
+    {
+      "id": "TXN-176646",
+      "orderId": "ORD-2465",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T14:10:20.486Z"
+    },
+    {
+      "id": "TXN-179688",
+      "orderId": "ORD-8623",
+      "customerEmail": "admin@vartman.com",
+      "amount": 9600,
+      "amountINR": 9600,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T14:04:49.658Z"
+    },
+    {
+      "id": "TXN-284479",
+      "orderId": "ORD-9120",
+      "customerEmail": "admin@vartman.com",
+      "amount": 5523,
+      "amountINR": 5523,
+      "paymentMethod": "UPI QR Code",
+      "status": "Failed",
+      "gatewayTransactionId": "UPI-ERR-3019570",
+      "timestamp": "2026-07-20T13:33:39.852Z"
+    },
+    {
+      "id": "TXN-307576",
+      "orderId": "ORD-5028",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T14:31:47.399Z"
+    },
+    {
+      "id": "TXN-316722",
+      "orderId": "ORD-4753",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T13:55:21.646Z"
+    },
+    {
+      "id": "TXN-374141",
+      "orderId": "ORD-7351",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Success",
+      "gatewayTransactionId": "UPI-TXN-9518916",
+      "timestamp": "2026-07-20T18:55:44.930Z"
+    },
+    {
+      "id": "TXN-382531",
+      "orderId": "ORD-5665",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T14:03:21.202Z"
+    },
+    {
+      "id": "TXN-475637",
+      "orderId": "ORD-4271",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 200,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-21T12:17:00.877Z"
+    },
+    {
+      "id": "TXN-481466",
+      "orderId": "ORD-7039",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T13:55:37.880Z"
+    },
+    {
+      "id": "TXN-548511",
+      "orderId": "ORD-4073",
+      "customerEmail": "admin@vartman.com",
+      "amount": 7213,
+      "amountINR": 7213,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T13:50:42.601Z"
+    },
+    {
+      "id": "TXN-859412",
+      "orderId": "ORD-6495",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T14:28:32.866Z"
+    },
+    {
+      "id": "TXN-886425",
+      "orderId": "ORD-5128",
+      "customerEmail": "admin@vartman.com",
+      "amount": 1372,
+      "amountINR": 1372,
+      "paymentMethod": "UPI QR Code",
+      "status": "Pending",
+      "gatewayTransactionId": "",
+      "timestamp": "2026-07-20T14:09:41.170Z"
+    },
+    {
+      "id": "TXN-9821",
+      "orderId": "ORD-9304",
+      "customerEmail": "admin@vartman.com",
+      "amount": 108,
+      "paymentMethod": "UPI QR Code",
+      "status": "Success",
+      "gatewayTransactionId": "UPI-TXN-8829104",
+      "timestamp": "2026-05-20T14:25:12Z"
+    }
+  ],
+  "homepageSections": [
+    {
+      "id": "sec-featured",
+      "subtitle": "Slow-made garments designed for the contemporary nomad. Woven by hand, finished by nature.",
+      "title": "Discover What's New",
+      "isActive": true,
+      "sortOrder": 1,
+      "productIds": [
+        "prod-1",
+        "prod-2",
+        "prod-3",
+        "prod-4",
+        "prod-1784493321978",
+        "prod-1784493914740",
+        "prod-1784495231345",
+        "prod-1784536804295",
+        "prod-1784548567339",
+        "prod-1784548686440",
+        "prod-1784550367432",
+        "prod-1784550502043"
+      ],
+      "layoutType": "grid"
+    },
+    {
+      "id": "sec-best-sellers",
+      "sortOrder": 2,
+      "layoutType": "carousel",
+      "productIds": [
+        "prod-2",
+        "prod-3",
+        "prod-4",
+        "prod-1784550502043",
+        "prod-1784550367432",
+        "prod-1784548686440",
+        "prod-1784548567339",
+        "prod-1784536804295",
+        "prod-1784495231345",
+        "prod-1784493914740",
+        "prod-1784493321978"
+      ],
+      "title": "Customer Favorites",
+      "subtitle": "Highly-coveted organic flax and handloomed coordinates, reviewed and verified by global wanderers.",
+      "isActive": true
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile with roles and details",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string", "enum": ["customer", "admin"] }
+      },
+      "required": ["id", "name", "email", "role"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "Store inventory products representing travel and design inspiration",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "number" },
+        "category": { "type": "string" },
+        "images": { "type": "array" },
+        "rating": { "type": "number" },
+        "reviewsCount": { "type": "number" },
+        "stock": { "type": "number" },
+        "sizes": { "type": "array" },
+        "tags": { "type": "array" },
+        "featured": { "type": "boolean" },
+        "inspiration": { "type": "string" }
+      },
+      "required": ["id", "name", "price", "category", "stock"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer purchase transaction rules and payment/transit tracking",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "date": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "subtotal": { "type": "number" },
+        "discount": { "type": "number" },
+        "total": { "type": "number" },
+        "paymentStatus": { "type": "string", "enum": ["Pending", "Paid"] },
+        "status": { "type": "string", "enum": ["Pending", "Processing", "Shipped", "Delivered"] },
+        "paymentMethod": { "type": "string" }
+      },
+      "required": ["id", "date", "customerName", "customerEmail", "subtotal", "total", "status"]
+    },
+    "PaymentConfig": {
+      "title": "PaymentConfig",
+      "description": "API keys, UPI VPA, and status toggle settings for checkout",
+      "type": "object",
+      "properties": {
+        "merchantId": { "type": "string" },
+        "secretKey": { "type": "string" },
+        "saltKey": { "type": "string" },
+        "upiVpa": { "type": "string" },
+        "intentEnabled": { "type": "boolean" },
+        "qrEnabled": { "type": "boolean" }
+      },
+      "required": ["merchantId", "upiVpa", "intentEnabled", "qrEnabled"]
+    },
+    "Transaction": {
+      "title": "Transaction",
+      "description": "Individual payment attempts and status logs",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "orderId": { "type": "string" },
+        "customerEmail": { "type": "string" },
+        "amount": { "type": "number" },
+        "paymentMethod": { "type": "string" },
+        "status": { "type": "string", "enum": ["Pending", "Success", "Failed"] },
+        "gatewayTransactionId": { "type": "string" },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["id", "orderId", "customerEmail", "amount", "paymentMethod", "status", "timestamp"]
+    },
+    "HomepageSection": {
+      "title": "HomepageSection",
+      "description": "Dynamic homepage marketing sections with product selectors",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "layoutType": { "type": "string", "enum": ["grid", "carousel"] },
+        "productIds": { "type": "array" },
+        "isActive": { "type": "boolean" },
+        "sortOrder": { "type": "number" }
+      },
+      "required": ["id", "title", "layoutType", "productIds", "isActive", "sortOrder"]
+    },
+    "BackInStockNotification": {
+      "title": "BackInStockNotification",
+      "description": "User requests for notify-me when an out of stock product size becomes available",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "productId": { "type": "string" },
+        "size": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "email", "productId", "size", "createdAt"]
+    },
+    "CmsConfig": {
+      "title": "CmsConfig",
+      "description": "Storefront global layout config, homepage headers, announcements, and categories list",
+      "type": "object",
+      "properties": {
+        "announcementText": { "type": "string" },
+        "heroImageUrl": { "type": "string" },
+        "heroImageUrlMobile": { "type": "string" },
+        "heroTitle": { "type": "string" },
+        "heroSubtitle": { "type": "string" },
+        "heroCtaText": { "type": "string" },
+        "featuredProductIds": { "type": "array" },
+        "categoriesTitle": { "type": "string" },
+        "categories": { "type": "array" }
+      },
+      "required": ["announcementText", "heroImageUrl", "heroTitle", "heroSubtitle", "heroCtaText"]
+    }
+  },
+  "firestore": {
+    "/cms/config": {
+      "schema": "CmsConfig",
+      "description": "Dynamic homepage marketing configurations, brand assets, and category details"
+    },
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User records for buyers and admins"
+    },
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "Product collection for public explorer view and admin modifications"
+    },
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Order records for store purchase logs"
+    },
+    "/system/paymentConfig": {
+      "schema": "PaymentConfig",
+      "description": "Secure settings for payment gateways and UPI"
+    },
+    "/transactions/{transactionId}": {
+      "schema": "Transaction",
+      "description": "Secure transactional ledgers of checkout attempts"
+    },
+    "/homepageSections/{sectionId}": {
+      "schema": "HomepageSection",
+      "description": "Configured dynamic sections on the storefront homepage"
+    },
+    "/notifications/{notificationId}": {
+      "schema": "BackInStockNotification",
+      "description": "Restock notifications requested by users for out-of-stock sizes"
+    }
+  }
+}
