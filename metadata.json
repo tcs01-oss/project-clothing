@@ -1,0 +1,6 @@
+{
+  "name": "UNIQUE COLLECTION",
+  "description": "An earthy, minimalist e-commerce ecosystem for Tirupati Merchandise featuring handcrafted organic travel gear, apparel, and curated collections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

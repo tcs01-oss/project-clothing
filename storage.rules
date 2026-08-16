@@ -1,0 +1,66 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // =========================================================================
+    // HELPER FUNCTIONS
+    // =========================================================================
+
+    // Verify user is authenticated via Firebase Auth
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Verify administrator privileges via custom auth claim OR Firestore lookup
+    function isAdmin() {
+      return isAuthenticated() && (
+        request.auth.token.admin == true ||
+        request.auth.token.role == 'admin' ||
+        firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data.isAdmin == true
+      );
+    }
+
+    // =========================================================================
+    // 1. DEFAULT DENY ALL ACCESS
+    // =========================================================================
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+
+    // =========================================================================
+    // 2. PUBLIC CATALOG ASSETS (Read-only for public, Admin write)
+    // =========================================================================
+    match /products/{imageId=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /categories/{imageId=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /cms/{imageId=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // =========================================================================
+    // 3. USER PROFILE ASSETS (Scoped strictly to uid)
+    // =========================================================================
+    match /users/{userId}/{allUserFiles=**} {
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow write: if isAuthenticated() && request.auth.uid == userId
+                   && request.resource.size < 5 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+    }
+
+    // =========================================================================
+    // 4. ADMIN-ONLY UPLOADS
+    // =========================================================================
+    match /admin/{allAdminFiles=**} {
+      allow read, write: if isAdmin();
+    }
+  }
+}
